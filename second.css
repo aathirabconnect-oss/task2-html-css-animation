@@ -1,0 +1,158 @@
+
+
+body {
+    background-color: rgb(21, 21, 63);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.top-area {
+    padding: 22px;
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+
+.logo span, .footer-logo span {
+    color: rgb(5, 228, 228);
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.menu a {
+    color: white;
+  
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: rgb(20, 233, 233);
+   }
+
+
+.small-heading {
+    color: rgb(5, 228, 228);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    
+}
+
+.page-banner {
+    text-align: center;
+    padding: 75px ;
+    background-color:rgb(23, 41, 68); 
+}
+
+.page-banner h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.page-banner h1 span {
+    color:rgb(5, 228, 228);
+}
+
+
+
+.about-main {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 80px;
+}
+
+.about-image{
+    width: 50%;
+}
+.about-content {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.about-content h2 {
+    font-size: 32px;
+
+}
+
+.about-content p {
+    color: rgb(234, 230, 230);
+    line-height: 1.8;
+   
+}
+
+.mission-section {
+    display: flex;
+    gap: 25px;
+    padding: 40px ;
+}
+
+.mission {
+    background-color: rgb(23, 41, 68);;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 35px;
+    width: 50%;
+    transition: 0.3s;
+}
+
+.mission:hover {
+    border-color: rgb(5, 228, 228);
+    transform: translateY(-6px);
+}
+
+.mission h2 {
+    color: rgb(5, 228, 228);
+   
+}
+
+.mission p {
+    color: rgb(234, 230, 230);
+    line-height: 1.8;
+}
+
+.bottom-area {
+    text-align: center;
+    padding: 35px ;
+    
+}
+
+
+
+
+
+.footer-links a {
+    color: rgb(234, 230, 230);
+   
+    margin: 0 12px;
+}
+
+.footer-links a:hover {
+    color:rgb(5, 228, 228);
+}
+
+.copyright {
+    color: rgb(234, 230, 230);
+    font-size: 12px;
+}
+

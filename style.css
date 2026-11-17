@@ -1,0 +1,298 @@
+
+
+body {
+    background-color: rgb(21, 21, 63);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.top {
+    padding: 22px;
+    border-bottom: 1px solid gray;
+}
+
+.side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#aathi{
+    
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 50%;
+
+}
+
+.logo {
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.logo span, .footer-logo span {
+    color: teal;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+  
+}
+ .menu a:hover{
+    color: rgb(20, 233, 233);
+   }
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+
+
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 90px 8%;
+}
+
+.hello-content {
+    width: 55%;
+}
+
+.small-heading {
+    color:rgb(20, 233, 233);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+   
+}
+
+.hello h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    
+}
+
+.hello h1 span {
+    color:rgb(20, 233, 233) ;
+}
+
+.hello2{
+    color: rgb(229, 224, 224);
+    line-height: 1.8;
+   
+}
+
+.hello-image {
+    width: 42%;
+  
+}
+
+.hello-image img {
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.main-btn {
+   
+    padding: 14px ;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+   
+}
+
+.second-btn {
+   
+    padding: 14px ;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.main-btn {
+    background-color:rgb(20, 233, 233);
+    color:rgb(23, 41, 68);
+}
+
+.main-btn:hover {
+    background-color: white;
+    transform: scale(1.08);
+}
+
+.second-btn {
+    color: white;
+    border: 1px solid rgb(227, 222, 222);
+    margin-left: 8px;
+}
+
+.second-btn:hover {
+    background-color:rgb(20, 233, 233);
+    color: rgb(23, 41, 68);
+    transform: scale(1.08);
+}
+
+
+.intro {
+    display: flex;
+   
+    gap: 50px;
+    padding: 70px ;
+    background-color:rgb(23, 41, 68);
+}
+
+
+
+.intro-image img {
+    width: 100%;
+    border-radius: 12px;
+     border: 1px solid gray;
+
+}
+
+.intro-content h2{
+    font-size: 32px;
+    
+}
+ .section-heading {
+    font-size: 32px;
+    
+}
+
+.intro-content p {
+    color: white;
+    line-height: 1.8;
+    
+}
+
+.text-link {
+    color:rgb(20, 233, 233) ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.courses-section{
+    padding: 75px;
+    text-align: center;
+}
+.why-section {
+    padding: 75px;
+    text-align: center;
+}
+
+.courses{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+ .why {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+.course-types {
+    background-color: rgb(23, 41, 68);
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 10px;
+    width: 33.33%;
+    text-align: left;
+    transition: 0.3s;
+}
+ .whyy {
+    background-color:  rgb(23, 41, 68);
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 10px;
+    width: 33.33%;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.course-types:hover{
+    transform: translateY(-8px);
+    border-color:rgb(20, 233, 233);
+}
+ .whyy:hover {
+    transform: translateY(-8px);
+    border-color:rgb(20, 233, 233);
+}
+
+.course-types h3{
+    color: rgb(20, 233, 233);
+  
+}
+.whyy h3 {
+    color: rgb(20, 233, 233);
+  
+}
+
+.course-types p{
+    color:rgb(236, 226, 226);
+    line-height: 1.7;
+}
+ .whyy p {
+    color:rgb(236, 226, 226);
+    line-height: 1.7;
+}
+
+.center-button {
+    margin-top: 35px;
+}
+
+.hi {
+    background-color:  rgb(23, 41, 68);
+    padding: 65px 20px;
+    text-align: center;
+}
+
+.hi h2 {
+    margin-bottom: 15px;
+}
+
+.hi p {
+    color: #B8C5D6;
+    margin-bottom: 25px;
+}
+
+.bottom-area {
+    text-align: center;
+    padding: 35px 20px;
+    border-top: 1px solid #34445C;
+}
+
+.footer-logo {
+    margin-bottom: 12px;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color:white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.footer-links a:hover {
+    color: rgb(0, 223, 223);
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+}
+

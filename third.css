@@ -1,0 +1,176 @@
+
+
+
+body {
+    background-color: rgb(21, 21, 63);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.top-area {
+    padding: 22px;
+ 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.logo span{
+    color: rgb(5, 228, 228);
+}
+ .footer-logo span {
+    color: rgb(5, 228, 228);
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+.menu a:hover{
+    color: rgb(20, 233, 233);
+   }
+
+
+.small-heading {
+    color:  rgb(5, 228, 228);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+.page-banner {
+    text-align: center;
+    padding: 75px ;
+    background-color:rgb(23, 41, 68);
+}
+
+.page-banner h1 {
+    font-size: 42px;
+  
+}
+
+.page-banner h1 span {
+    color: rgb(5, 228, 228);
+}
+
+
+
+.all-courses {
+    display: flex;
+    justify-content: center;
+   
+    gap: 25px;
+    padding: 70px;
+}
+
+.courses {
+    background-color:rgb(23, 41, 68);
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 30px;
+    width: 47%;
+    transition: 0.3s;
+}
+
+.courses:hover {
+    transform: translateY(-7px);
+    border-color: rgb(5, 228, 228);
+}
+
+.course-number {
+    color: rgb(5, 228, 228);
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+.courses h2 {
+    font-size: 22px;
+   
+}
+
+.courses p {
+    color: rgb(234, 224, 224);
+    line-height: 1.8;
+}
+
+.courses .course-tag {
+    color: rgb(5, 228, 228);
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.course-note {
+    background-color: rgb(23, 41, 68);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.course-note p {
+    color: rgb(234, 224, 224);
+  
+}
+
+.main-btn {
+   
+    padding: 14px ;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(5, 228, 228);
+    color: rgb(23, 41, 68);
+    font-weight: bold;
+    transition: 0.3s;
+ 
+}
+.puppy{
+    margin-top: 60px;
+}
+.main-btn:hover {
+    background-color: white;
+    transform: translateY(-3px);
+}
+.puppy:hover{
+     transform: translateY(-3px);
+}
+.bottom-area {
+    text-align: center;
+    padding: 35px ;
+  
+}
+
+
+
+
+.footer-links a {
+    color: rgb(234, 224, 224);
+   
+}
+
+.footer-links a:hover {
+    color:  rgb(5, 228, 228);
+}
+
+.copyright {
+    color: rgb(234, 224, 224);
+    font-size: 12px;
+}
+

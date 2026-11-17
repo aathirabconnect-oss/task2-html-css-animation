@@ -1,0 +1,201 @@
+
+
+
+body {
+    background-color: rgb(21, 21, 63);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.top-area {
+    padding: 22px;
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.logo span{
+    color: rgb(1, 231, 231);
+}
+ .footer-logo span {
+    color: rgb(1, 231, 231);
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu a {
+    color: white;
+  
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: rgb(1, 231, 231);
+}
+
+.small-heading {
+    color:rgb(1, 231, 231);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  
+}
+
+.page-banner {
+    text-align: center;
+    padding: 75px ;
+      background-color:rgb(23, 41, 68);
+}
+
+.page-banner h1 {
+    font-size: 42px;
+    
+}
+
+.page-banner h1 span {
+    color:rgb(1, 231, 231);
+}
+
+.page-banner p:last-child {
+    color: rgb(233, 228, 228);
+}
+
+.contact-section {
+    display: flex;
+
+    gap: 50px;
+    padding: 75px ;
+}
+
+.contact-info, .contact-form {
+    width: 50%;
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.info-description {
+    color:rgb(233, 228, 228);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact-detail {
+    border-left: 3px solid rgb(1, 231, 231);
+    padding: 15px ;
+   
+      background-color:rgb(23, 41, 68);
+}
+
+.contact-detail h3 {
+    color: rgb(1, 231, 231);
+    
+}
+
+.contact-detail p, .contact-detail a {
+    color:rgb(233, 228, 228);
+    
+}
+
+.contact-detail a:hover {
+    color: rgb(1, 231, 231);
+}
+
+.contact-form {
+    background-color:rgb(23, 41, 68);
+    padding: 35px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    margin-bottom: 25px;
+}
+
+.contact-form label {
+    
+    margin-bottom: 8px;
+    color:rgb(233, 228, 228);
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 60px;
+    background-color: rgb(21, 21, 63);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+ .contact-form textarea {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 30px;
+    background-color: rgb(21, 21, 63);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+.contact-form .submit-btn {
+    background-color: rgb(1, 231, 231);
+  color: rgb(21, 21, 63);;
+    font-weight: bold;
+    
+   
+    transition: 0.3s;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: white;
+    transform: translateY(-3px);
+}
+
+.bottom-area {
+    text-align: center;
+    padding: 35px;
+   
+}
+
+
+
+
+.footer-links a {
+    color:rgb(233, 228, 228);
+ 
+  
+}
+
+.footer-links a:hover {
+    color:rgb(1, 231, 231);
+}
+
+.copyright {
+    color:rgb(233, 225, 225);
+    font-size: 12px;
+}
+
+

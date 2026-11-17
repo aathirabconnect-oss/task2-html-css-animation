@@ -1,0 +1,179 @@
+
+
+
+body {
+    background-color:rgb(21, 21, 63);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.top-area {
+    padding: 22px;
+    border-bottom: 1px solid rgb(23, 41, 68);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.logo span{
+    color: rgb(5, 228, 228);
+}
+ .footer-logo span {
+    color: rgb(5, 228, 228);
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+   
+}
+
+.menu a {
+    color: white;
+   
+    font-size: 13px;
+    transition: 0.3s;
+}
+.menu a:hover{
+    color: rgb(20, 233, 233);
+   }
+
+
+.small-heading {
+    color:rgb(5, 228, 228);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+   
+}
+
+.page-banner {
+    text-align: center;
+    padding: 75px;
+    background-color:rgb(23, 41, 68);
+}
+
+.page-banner h1 {
+    font-size: 42px;
+ 
+}
+
+.page-banner h1 span {
+    color: rgb(5, 228, 228);
+}
+
+
+
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 70px;
+}
+
+.advantagesin{
+    width: 30%;
+    padding: 30px;
+    background-color: rgb(23, 41, 68);
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.advantagesin:hover {
+    border-color:rgb(5, 228, 228);
+    transform: translateY(-7px);
+}
+
+.number {
+    color: rgb(5, 228, 228);
+    font-size: 28px;
+    font-weight: bold;
+ 
+}
+
+.advantagesin h2 {
+    font-size: 20px;
+  
+}
+
+.advantagesin p {
+    color: rgb(231, 218, 218);
+    line-height: 1.8;
+}
+
+.why-quote {
+    background-color:rgb(23, 41, 68);
+    text-align: center;
+    padding: 65px;
+  
+}
+
+
+
+.why-quote p {
+    color: rgb(231, 218, 218);
+   
+}
+
+.main-btn {
+    padding: 14px 22px;
+    
+    border-radius: 5px;
+    background-color:rgb(5, 228, 228);
+    color: rgb(21, 21, 63);
+    font-weight: bold;
+    transition: 0.3s;
+   
+}
+.puppy{
+    margin-top: 60px;
+}
+.puppy:hover {
+   
+    transform: translateY(-3px);
+}
+
+.main-btn:hover {
+    background-color: white;
+    transform: translateY(-3px);
+}
+
+.bottom-area {
+    text-align: center;
+    padding: 35px;
+   
+}
+
+.footer-logo {
+    margin-bottom: 12px;
+}
+
+
+
+.footer-links a {
+    color:rgb(231, 218, 218);
+    text-decoration: none;
+  
+}
+
+.footer-links a:hover {
+    color: rgb(5, 228, 228);
+}
+
+.copyright {
+    color:rgb(231, 218, 218);
+    font-size: 12px;
+}
+
+
