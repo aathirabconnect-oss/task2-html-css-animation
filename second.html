@@ -3,6 +3,8 @@
 <head>
     <title>About | Luminar Technolab</title>
     <link rel="stylesheet" href="./second.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
@@ -49,7 +51,7 @@
 </div>
 
 <div class="mission-section">
-    <div class="mission">
+    <div data-aos="fade-right" class="mission">
         <h2>Our Mission</h2>
         <p>
             To encourage learners to develop technical knowledge,
@@ -58,7 +60,7 @@
         </p>
     </div>
 
-    <div class="mission">
+    <div data-aos="fade-left"  class="mission">
         <h2>Our Vision</h2>
         <p>
             To inspire continuous learning and help individuals
@@ -81,4 +83,7 @@
 </div>
 
 </body>
+<script>
+  AOS.init();
+</script>
 </html>

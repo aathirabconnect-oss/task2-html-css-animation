@@ -58,7 +58,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 40px;
-    padding: 90px 8%;
+    padding: 90px ;
 }
 
 .hello-content {
@@ -90,13 +90,20 @@ body {
 }
 
 .hello-image {
-    width: 42%;
+    width: 52%;
+     overflow: hidden;
+      border-radius: 15px;
+    border: 1px solid gray;
   
 }
 
 .hello-image img {
-    border-radius: 15px;
-    border: 1px solid gray;
+   
+    transition: 1s ease;
+   
+}
+.hello-image img:hover{
+    transform: scale(1.08);
 }
 
 .main-btn {
@@ -150,13 +157,21 @@ body {
     background-color:rgb(23, 41, 68);
 }
 
-
+.intro-image {
+    width: 52%;
+     overflow: hidden;
+      border-radius: 15px;
+    border: 1px solid gray;
+  
+}
 
 .intro-image img {
     width: 100%;
-    border-radius: 12px;
-     border: 1px solid gray;
+  transition: 1s ease;
 
+}
+.intro-image img:hover{
+    transform: scale(1.08);
 }
 
 .intro-content h2{
@@ -170,7 +185,7 @@ body {
 
 .intro-content p {
     color: white;
-    line-height: 1.8;
+    line-height: 1.8rem;
     
 }
 
@@ -295,4 +310,13 @@ body {
     color: white;
     font-size: 12px;
 }
-
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color:rgb(21, 21, 63) ;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 223, 223) ;
+    border-radius: 10px;
+}
